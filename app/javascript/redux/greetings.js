@@ -10,7 +10,7 @@ export default function reducer(state = '', action) {
 
 // fetch data
 const fetchMessages = async () => {
-  const res = await fetch('v1/messages');
+  const res = await fetch('v1/posts');
   return res.json();
 };
 
